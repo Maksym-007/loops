@@ -1,18 +1,18 @@
 //№1
 
-let i;
-do {
-  i = prompt('Введите число больше 100');
-}
-while (i <= 100 && i);
+// let i;
+// do {
+//   i = prompt('Введите число больше 100');
+// }
+// while (i <= 100 && i);
 
 //№2
 
-// for (let i = 2; i < 9; i++) {
-//   if (i % 2) {
-//     console.log(i);
-//   }
-// }
+for (let i = 2; i < 9; i++) {
+  if (i % 2) {
+    console.log(i);
+  }
+}
 
 //№3
 

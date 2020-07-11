@@ -58,7 +58,7 @@ for (let i = 2; i < 9; i++) {
 // let vic = Math.floor(Math.random() * (10 - 1) + 1);
 // console.log(vic);
 // let ask = true
-// for (; ask != vic;) {
+// for (; ask $$ ask != vic;) {
 //   ask = prompt('загадай число от 0 до 10')
 //   if (ask == vic) {
 //     alert('You win!');

@@ -8,11 +8,11 @@
 
 //№2
 
-for (let i = 2; i < 9; i++) {
-  if (i % 2) {
-    console.log(i);
-  }
-}
+// for (let i = 2; i < 9; i++) {
+//   if (i % 2) {
+//     console.log(i);
+//   }
+// }
 
 //№3
 
@@ -55,17 +55,17 @@ for (let i = 2; i < 9; i++) {
 
 //for!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-// let vic = Math.floor(Math.random() * (10 - 1) + 1);
-// console.log(vic);
-// let ask = true
-// for (; ask $$ ask != vic;) {
-//   ask = prompt('загадай число от 0 до 10')
-//   if (ask == vic) {
-//     alert('You win!');
-//   } else if (!ask) {//пустая строка
-//     alert('Вы вышли из игры!');
-//   }
-// }
+let vic = Math.floor(Math.random() * (10 - 1) + 1);
+console.log(vic);
+let ask = true;
+for (; ask && ask != vic;) {
+  ask = prompt('загадай число от 0 до 10')
+  if (ask == vic) {
+    alert('You win!');
+  } else if (!ask) {//пустая строка
+    alert('Вы вышли из игры!');
+  }
+}
 
 //Задача на кратное число!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
